@@ -1,0 +1,11 @@
+{
+  "name": "Injection",
+  "version": "0.01",
+  "description": "injecting content script ",
+  "background":{
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://mail.google.com/"],
+  "manifest_version": 3
+}
